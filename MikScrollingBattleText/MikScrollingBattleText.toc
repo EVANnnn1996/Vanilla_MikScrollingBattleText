@@ -14,6 +14,7 @@ MikScrollingBattleText-enUS.lua
 MikScrollingBattleText-frFR.lua
 MikScrollingBattleText-deDE.lua
 MikScrollingBattleText-ruRU.lua
+MikScrollingBattleText-zhCN.lua
 
 localization.lua
 MikTableRecyclerObject.lua
