@@ -94,7 +94,7 @@ function MikSBTOpt.OnEvent()
  -- When an addon is loaded.
  if (event == "ADDON_LOADED") then
   -- Make sure it's this addon.
-  if (arg1 == string.gsub(MikSBT.MOD_NAME .. "Options", "%s", "")) then
+  if (arg1 == string.gsub(MikSBT.MOD_NAME, "%s", "")) then
 
    -- Don't get notification for other addons being loaded.
    this:UnregisterEvent("ADDON_LOADED");
